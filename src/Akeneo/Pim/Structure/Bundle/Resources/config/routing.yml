@@ -44,6 +44,14 @@ association:
     resource: '@AkeneoPimStructureBundle/Resources/config/routing/internal_api/associationtype.yml'
     prefix: /configuration/association-type
 
+nternal_api_grouptype:
+    resource: '@AkeneoPimStructureBundle/Resources/config/routing/internal_api/grouptype.yml.yml'
+    prefix: /configuration/group-type
+
 ### Front routes
 front_routes:
     resource: '@AkeneoPimStructureBundle/Resources/config/routing/front.yml'
+
+grouptype_ui:
+    resource: '@AkeneoPimStructureBundle/Resources/config/routing/ui/grouptype.yml.yml'
+    prefix: /configuration/group-type
